@@ -22,7 +22,8 @@ title: Ivo's Tech Blog
 email: pacnik@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hello! My name is Ivo and I enjoy writing as well as solving hard problems. Hard in the sense they are not soft, not that they aren't easy. I love easy problems. The blog is about stuff that I've coded or written that can be uploaded to github or explained in a few paragraphs.
-baseurl: "" # the subpath of your site, e.g. /blog
+
+baseurl: "/ivos-tech-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jutranjo
 github_username:  jutranjo

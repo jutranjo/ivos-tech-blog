@@ -43,11 +43,11 @@ I wrote some additional functions in the library. At this point I skipped the te
 
 After doing that, all I had to do was to run a bunch of these games, noting the result of each and putting them all in a histogram and plotting the results.
 
-![Histogram of the game results](images/turtleResults1.png)
+![Histogram of the game results]({{ site.baseurl }}/assets/images/turtleResult1.png)
 
 This tool ended up being useful during the development of the game as they could now iterate on reducing the end game score for this strategy without actually playing a bunch of games. In the end they only needed to change the rule concerning the values of your greenwash and industry score. Instead of greenwash >= industry it was changed to greenwash > industry. Checking the expected value for turtling under this new rule, the histogram is visible below. 
 
-![Histogram of the game results after rule change](images/turtleResults2.png)
+![Histogram of the game results after rule change]({{ site.baseurl }}/assets/images/turtleResult2.png)
 
 
 [github-greenwashturtle]: https://github.com/jutranjo/Greenwash_Turtle_Sim
